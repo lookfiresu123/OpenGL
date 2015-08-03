@@ -1,0 +1,1 @@
+g++ -g -Wall XXX.cpp -o test -lGL -lglut
