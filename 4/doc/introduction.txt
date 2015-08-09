@@ -1,0 +1,4 @@
+1. graphics output primitive (primitive): 图形输出原语（图原），用于描述各种图形元素的函数。
+2. geometric primitive:几何图源，描述对象几何要素的输出图原（函数）。
+
+

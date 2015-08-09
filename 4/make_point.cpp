@@ -1,4 +1,13 @@
+/*
+ * build : g++ -g -Wall make_line.cpp -o test -lGL -lglut -lGLU
+ *
+ * author : created by lookfiresu123 @ 2015/8/9
+ *
+ * email : lookfiresu123@gmail.com
+ */
+
 #include<GL/glut.h>
+#include<GL/glu.h>
 #include<stdio.h>
 
 class POINT{
