@@ -9,22 +9,13 @@
 #include<GL/glut.h>
 #include<GL/glu.h>
 #include<iostream>
-#include"calculation.h"
+#include"make_line.h"
+//#include"type.h"
 
 #define SIZE_POINT 5
 #define DO_MAKE_LINE 0
 #define DO_MAKE_LINE_STRIP 0
 #define DO_MAKE_LINE_LOOP 1
-
-class POINT{
-public:
-    GLfloat x,y;
-};
-
-class POINT_V {
-public:
-    GLfloat vertex[2];
-};
 
 void init(void){
     glClearColor(1.0,1.0,1.0,0.0);
@@ -36,7 +27,7 @@ void init(void){
 void make_line(void){
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0,0.0,0.0);
-    POINT point[3][3];
+    POINT_int_2D point[3][3];
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
             point[i][j].x = 100 + j * 100;
@@ -64,7 +55,7 @@ void make_line(void){
 void make_line_strip(void) {
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0,0.0,0.0);
-    POINT_V point[SIZE_POINT];
+    POINT_V_float_2D point[SIZE_POINT];
     point[0].vertex[0] = 400.0;
     point[0].vertex[1] = 200.0;
     point[1].vertex[0] = 0.0;
@@ -87,7 +78,7 @@ void make_line_strip(void) {
 void make_line_loop(void) {
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0,0.0,0.0);
-    POINT_V point[SIZE_POINT];
+    POINT_V_float_2D point[SIZE_POINT];
     point[0].vertex[0] = 400.0;
     point[0].vertex[1] = 200.0;
     point[1].vertex[0] = 0.0;
@@ -107,7 +98,7 @@ void make_line_loop(void) {
     glFlush();
 }
 
-int main(int argc,char ** argv){
+int test_make_line(int argc,char ** argv){
     glutInit(&argc,argv);
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
     glutInitWindowPosition(50,50);
