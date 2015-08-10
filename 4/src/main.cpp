@@ -9,11 +9,11 @@
 #include<GL/glut.h>
 #include<GL/glu.h>
 #include<iostream>
-//#include"calculation.h"
-#include"make_line.h"
-//#include"type.h"
+//#include"make_line.h"
+#include"make_polygon.h"
 
 int main(int argc,char ** argv) {
-	test_make_line(argc,argv);
+	//test_make_line(argc,argv);
+	test_make_polygon(argc,argv);
 	return 0;
 }
