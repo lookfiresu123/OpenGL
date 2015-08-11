@@ -30,7 +30,7 @@ void make_quads_float_2D(POLYGON_float_2D polygon) {
 	glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0,0.0,0.0);
     /*
-     * 用图元常量GL_QUADS生成两个不相连的三角形
+     * 用图元常量GL_QUADS生成两个不相连的四边形
      */
 #if DO_GL_QUADS
     glBegin(GL_QUADS);
@@ -41,9 +41,9 @@ void make_quads_float_2D(POLYGON_float_2D polygon) {
     glEnd();
 #endif
     /*
-     * 用图元常量GL_QUAD_STRIP生成四个相连的三角形
-     * 其中若点序列为：p1, p2, p3, p4, p5, p6
-     * 则生成的三角形分别为：{p1, p2, p3}, {p2, p3, p4}, {p3, p4, p5}, {p4, p5, p6}
+     * 用图元常量GL_QUAD_STRIP生成三个相连的四边形
+     * 其中若点序列为：p1, p2, p3, p4, p5, p6, p7, p8
+     * 则生成的四边形分别为：{p1, p2, p3, p4}, {p3, p4, p5, p6}, {p5, p6, p7, p8}
      */
 #if DO_GL_QUAD_STRIP
     glBegin(GL_QUAD_STRIP);

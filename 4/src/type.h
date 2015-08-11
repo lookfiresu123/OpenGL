@@ -80,7 +80,10 @@ public:
 class SURFACE_int_2D {
 public:
     GLint sum_edges;
+    GLint sum_points;
     EDGE_int_2D *edges_int;
+    POINT_int_2D *point;
+    POINT_V_int_2D *point_v;
 };
 
 /*
@@ -89,7 +92,10 @@ public:
 class SURFACE_int_3D {
 public:
     GLint sum_edges;
+    GLint sum_points;
     EDGE_int_3D *edges_int;
+    POINT_int_2D *point;
+    POINT_V_int_2D *point_v;
 };
 
 /*
@@ -117,6 +123,11 @@ public:
     EDGE_int_3D *edge;
     SURFACE_int_3D *surface;
 };
+
+/*
+ * describe the stereoscopic primitive with int values
+ */
+class STEREOSCOPIC_int : public POLYGON_int_3D {  };
 
 /* default in 2D */
 class Vector_float_2D {
@@ -192,7 +203,10 @@ public:
 class SURFACE_float_2D {
 public:
     GLint sum_edges;
+    GLint sum_points;
     EDGE_float_2D *edges_int;
+    POINT_float_2D *point;
+    POINT_V_float_2D *point_v;
 };
 
 /*
@@ -202,6 +216,9 @@ class SURFACE_float_3D {
 public:
     GLint sum_edges;
     EDGE_float_3D *edges_int;
+    GLint sum_points;
+    POINT_float_3D *point;
+    POINT_V_float_3D *point_v;
 };
 
 /*
@@ -231,3 +248,13 @@ public:
     EDGE_float_3D *edge;
     SURFACE_float_3D *surface;
 };
+
+/*
+ * describe the stereoscopic with float values, which the points are ordered
+ */
+class STEREOSCOPIC_float : public POLYGON_float_3D {};
+
+/*
+ * describe the CUBE with float values, which the points are ordered
+ */
+class CUBE_float : public STEREOSCOPIC_float {};

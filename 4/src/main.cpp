@@ -12,12 +12,15 @@
 //#include"make_line.h"
 //#include"make_polygon.h"
 //#include "make_triangles.h"
-#include "make_quads.h"
+//#include "make_quads.h"
+#include "make_stereoscopic.h"
+
 
 int main(int argc,char ** argv) {
 	//test_make_line(argc,argv);
 	//test_make_polygon(argc,argv);
 	//test_make_triangles(argc,argv);
-	test_make_quads(argc,argv);
+	//test_make_quads(argc,argv);
+	test_make_stereoscopics(argc,argv);
 	return 0;
 }
