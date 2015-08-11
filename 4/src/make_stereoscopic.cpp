@@ -3,7 +3,7 @@
  *
  *       Filename:  make_stereoscopic.cpp
  *
- *    Description:
+ *    Description:  make a kind of primitive of stereoscopic, and make a cube for example
  *
  *        Version:  1.0
  *        Created:  2015年08月11日 19时57分31秒
@@ -56,7 +56,7 @@ void make_stereoscopics_float(STEREOSCOPIC_float *stereoscopic, POINT_V_float_3D
 	glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0,0.0,0.0);
     /*
-     * 用图元常量GL_CUBE生成两个不相连的四边形
+     * 用图元常量GL_CUBE生成一个立方体
      */
 #if DO_GL_CUBE
     /* build a primitive of cube */
@@ -85,7 +85,7 @@ void make_stereoscopics_float(STEREOSCOPIC_float *stereoscopic, POINT_V_float_3D
     quad(stereoscopic->surface[3].point_v);
     quad(stereoscopic->surface[4].point_v);
     quad(stereoscopic->surface[5].point_v);
-    
+
 #endif
     glFlush();
 }
