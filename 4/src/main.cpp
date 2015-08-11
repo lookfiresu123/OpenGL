@@ -10,10 +10,12 @@
 #include<GL/glu.h>
 #include<iostream>
 //#include"make_line.h"
-#include"make_polygon.h"
+//#include"make_polygon.h"
+#include "make_triangles.h"
 
 int main(int argc,char ** argv) {
 	//test_make_line(argc,argv);
-	test_make_polygon(argc,argv);
+	//test_make_polygon(argc,argv);
+	test_make_triangles(argc,argv);
 	return 0;
 }
