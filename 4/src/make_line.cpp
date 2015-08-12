@@ -6,10 +6,10 @@
  * email : lookfiresu123@gmail.com
  */
 
-#include<GL/glut.h>
-#include<GL/glu.h>
-#include<iostream>
-#include"make_line.h"
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <iostream>
+#include "make_line.h"
 //#include"type.h"
 
 #define SIZE_POINT 5

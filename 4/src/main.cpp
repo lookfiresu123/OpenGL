@@ -9,18 +9,27 @@
 #include<GL/glut.h>
 #include<GL/glu.h>
 #include<iostream>
-//#include"make_line.h"
-//#include"make_polygon.h"
-//#include "make_triangles.h"
-//#include "make_quads.h"
+#if 0
+#include"make_line.h"
+#include"make_polygon.h"
+#include "make_triangles.h"
+#include "make_quads.h"
 #include "make_stereoscopic.h"
+#include "make_bitmap.h"
+#endif
+#include "make_list.h"
+
 
 
 int main(int argc,char ** argv) {
-	//test_make_line(argc,argv);
-	//test_make_polygon(argc,argv);
-	//test_make_triangles(argc,argv);
-	//test_make_quads(argc,argv);
+#if 0
+	test_make_line(argc,argv);
+	test_make_polygon(argc,argv);
+	test_make_triangles(argc,argv);
+	test_make_quads(argc,argv);
 	test_make_stereoscopics(argc,argv);
+	test_make_bitmap(argc,argv);
+#endif
+	test_make_list(argc,argv);
 	return 0;
 }

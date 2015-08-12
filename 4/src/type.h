@@ -129,6 +129,15 @@ public:
  */
 class STEREOSCOPIC_int : public POLYGON_int_3D {  };
 
+/*
+ * describe the bitmap primitive with int values in 2D
+ */
+class BITMAP_2D {
+public:
+    GLint sum_mappoint;
+    GLubyte *bitshape;
+};
+
 /* default in 2D */
 class Vector_float_2D {
 public:
@@ -258,3 +267,11 @@ class STEREOSCOPIC_float : public POLYGON_float_3D {};
  * describe the CUBE with float values, which the points are ordered
  */
 class CUBE_float : public STEREOSCOPIC_float {};
+
+/*
+ * describe the LIST in 2D
+ */
+class LIST {
+public:
+    GLint reghex;
+};
