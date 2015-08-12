@@ -16,8 +16,9 @@
 #include "make_quads.h"
 #include "make_stereoscopic.h"
 #include "make_bitmap.h"
-#endif
 #include "make_list.h"
+#endif
+#include "example_4_30.h"
 
 
 
@@ -29,7 +30,8 @@ int main(int argc,char ** argv) {
 	test_make_quads(argc,argv);
 	test_make_stereoscopics(argc,argv);
 	test_make_bitmap(argc,argv);
-#endif
 	test_make_list(argc,argv);
+#endif
+	test_example_4_30(argc,argv);
 	return 0;
 }

@@ -1,0 +1,204 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BITMAP_2D	type.h	/^class BITMAP_2D {$/;"	c
+CUBE_float	type.h	/^class CUBE_float : public STEREOSCOPIC_float {};$/;"	c
+Calculate_vector_float_2D	calculation.cpp	/^Vector_float_2D Calculate_vector_float_2D(POINT_float_2D source, POINT_float_2D dest) {$/;"	f
+Calculate_vector_float_3D	calculation.cpp	/^Vector_float_3D Calculate_vector_float_3D(POINT_float_3D source, POINT_float_3D dest) {$/;"	f
+Calculate_vector_int_2D	calculation.cpp	/^Vector_int_2D Calculate_vector_int_2D(POINT_int_2D source, POINT_int_2D dest) {$/;"	f
+Calculate_vector_int_3D	calculation.cpp	/^Vector_int_3D Calculate_vector_int_3D(POINT_int_3D source, POINT_int_3D dest) {$/;"	f
+Calculate_vector_product_float_3D	calculation.cpp	/^Vector_float_3D Calculate_vector_product_float_3D(Vector_float_3D factor_1, Vector_float_3D factor_2) {$/;"	f
+Calculate_vector_product_int_3D	calculation.cpp	/^Vector_int_3D Calculate_vector_product_int_3D(Vector_int_3D factor_1, Vector_int_3D factor_2) {$/;"	f
+DO_GL_BITMAP	make_bitmap.cpp	24;"	d	file:
+DO_GL_CUBE	make_stereoscopic.cpp	25;"	d	file:
+DO_GL_POLYGON	make_polygon.cpp	24;"	d	file:
+DO_GL_QUADS	make_quads.cpp	24;"	d	file:
+DO_GL_QUADS_ANYTHING	make_quads.cpp	27;"	d	file:
+DO_GL_QUAD_STRIP	make_quads.cpp	25;"	d	file:
+DO_GL_STEREOSCOPIC	make_stereoscopic.cpp	24;"	d	file:
+DO_GL_TRIANGLES	make_triangles.cpp	26;"	d	file:
+DO_GL_TRIANGLES_ANYTHING	make_triangles.cpp	24;"	d	file:
+DO_GL_TRIANGLE_FAN	make_triangles.cpp	28;"	d	file:
+DO_GL_TRIANGLE_STRIP	make_triangles.cpp	27;"	d	file:
+DO_MAKE_LINE	make_line.cpp	16;"	d	file:
+DO_MAKE_LINE_LOOP	make_line.cpp	18;"	d	file:
+DO_MAKE_LINE_STRIP	make_line.cpp	17;"	d	file:
+DO_MAKE_LIST	make_list.cpp	25;"	d	file:
+EDGE_float_2D	type.h	/^class EDGE_float_2D {$/;"	c
+EDGE_float_3D	type.h	/^class EDGE_float_3D {$/;"	c
+EDGE_int_2D	type.h	/^class EDGE_int_2D {$/;"	c
+EDGE_int_3D	type.h	/^class EDGE_int_3D {$/;"	c
+Initialize_point_float_2D	make_polygon.cpp	/^POINT_V_float_2D *Initialize_point_float_2D(GLfloat x[], GLfloat y[], GLint sum_points) {$/;"	f
+Initialize_point_float_3D	make_stereoscopic.cpp	/^POINT_V_float_3D *Initialize_point_float_3D(GLfloat x[], GLfloat y[], GLfloat z[], GLint sum_points) {$/;"	f
+Initialize_polygon_float_2D	make_polygon.cpp	/^POLYGON_float_2D Initialize_polygon_float_2D(GLint sum_points, POINT_V_float_2D *point_v) {$/;"	f
+Initialize_stereoscopic_float	make_stereoscopic.cpp	/^STEREOSCOPIC_float Initialize_stereoscopic_float(GLint sum_points, POINT_V_float_3D *point_v) {$/;"	f
+Initialize_vector_float_2D	calculation.cpp	/^void Initialize_vector_float_2D(Vector_float_2D *p, GLfloat x, GLfloat y) {$/;"	f
+Initialize_vector_float_3D	calculation.cpp	/^void Initialize_vector_float_3D(Vector_float_3D *p, GLfloat x, GLfloat y, GLfloat z) {$/;"	f
+Initialize_vector_int_2D	calculation.cpp	/^void Initialize_vector_int_2D(Vector_int_2D *p, GLint x, GLint y) {$/;"	f
+Initialize_vector_int_3D	calculation.cpp	/^void Initialize_vector_int_3D(Vector_int_3D *p, GLint x, GLint y, GLint z) {$/;"	f
+LINE	lifangti.cpp	/^class LINE{$/;"	c	file:
+LIST	type.h	/^class LIST {$/;"	c
+PI	3D.cpp	9;"	d	file:
+POINT	lifangti.cpp	/^class POINT{$/;"	c	file:
+POINT	make_point.cpp	/^class POINT{$/;"	c	file:
+POINT_V_float_2D	type.h	/^class POINT_V_float_2D {$/;"	c
+POINT_V_float_3D	type.h	/^class POINT_V_float_3D {$/;"	c
+POINT_V_int_2D	type.h	/^class POINT_V_int_2D {$/;"	c
+POINT_V_int_3D	type.h	/^class POINT_V_int_3D {$/;"	c
+POINT_float_2D	type.h	/^class POINT_float_2D {$/;"	c
+POINT_float_3D	type.h	/^class POINT_float_3D {$/;"	c
+POINT_int_2D	type.h	/^class POINT_int_2D {$/;"	c
+POINT_int_3D	type.h	/^class POINT_int_3D {$/;"	c
+POLYGON_float_2D	type.h	/^class POLYGON_float_2D {$/;"	c
+POLYGON_float_3D	type.h	/^class POLYGON_float_3D {$/;"	c
+POLYGON_int_2D	type.h	/^class POLYGON_int_2D {$/;"	c
+POLYGON_int_3D	type.h	/^class POLYGON_int_3D {$/;"	c
+R	3D.cpp	/^const GLfloat R = 8.0;$/;"	v
+SIZE_POINT	make_line.cpp	15;"	d	file:
+SIZE_POINT	make_polygon.cpp	25;"	d	file:
+SIZE_POINT	make_quads.cpp	26;"	d	file:
+SIZE_POINT	make_stereoscopic.cpp	26;"	d	file:
+SIZE_POINT	make_triangles.cpp	25;"	d	file:
+STEREOSCOPIC_float	type.h	/^class STEREOSCOPIC_float : public POLYGON_float_3D {};$/;"	c
+STEREOSCOPIC_int	type.h	/^class STEREOSCOPIC_int : public POLYGON_int_3D {  };$/;"	c
+SURFACE_float_2D	type.h	/^class SURFACE_float_2D {$/;"	c
+SURFACE_float_3D	type.h	/^class SURFACE_float_3D {$/;"	c
+SURFACE_int_2D	type.h	/^class SURFACE_int_2D {$/;"	c
+SURFACE_int_3D	type.h	/^class SURFACE_int_3D {$/;"	c
+Vector_float_2D	type.h	/^class Vector_float_2D {$/;"	c
+Vector_float_3D	type.h	/^class Vector_float_3D {$/;"	c
+Vector_int_2D	type.h	/^class Vector_int_2D {$/;"	c
+Vector_int_3D	type.h	/^class Vector_int_3D {$/;"	c
+big	3D.cpp	/^static int big = 0;$/;"	v	file:
+bitshape	type.h	/^    GLubyte *bitshape;$/;"	m	class:BITMAP_2D
+create_bitmap	make_bitmap.cpp	/^BITMAP_2D create_bitmap(GLubyte *bitshape, GLint sum_mappoint) {$/;"	f
+display	3D.cpp	/^void display(void)$/;"	f
+do_gl_bitmap_2D	make_bitmap.cpp	/^void do_gl_bitmap_2D(void) {$/;"	f
+do_gl_list	make_list.cpp	/^void do_gl_list(void) {$/;"	f
+do_gl_polygon_float_2D	make_polygon.cpp	/^void do_gl_polygon_float_2D(void) {$/;"	f
+do_gl_quads_float_2D	make_quads.cpp	/^void do_gl_quads_float_2D(void) {$/;"	f
+do_gl_stereoscopics_float	make_stereoscopic.cpp	/^void do_gl_stereoscopics_float(void) {$/;"	f
+do_gl_triangles_float_2D	make_triangles.cpp	/^void do_gl_triangles_float_2D(void) {$/;"	f
+edge	type.h	/^    EDGE_float_2D *edge;$/;"	m	class:POLYGON_float_2D
+edge	type.h	/^    EDGE_float_3D *edge;$/;"	m	class:POLYGON_float_3D
+edge	type.h	/^    EDGE_int_2D *edge;$/;"	m	class:POLYGON_int_2D
+edge	type.h	/^    EDGE_int_3D *edge;$/;"	m	class:POLYGON_int_3D
+edges_int	type.h	/^    EDGE_float_2D *edges_int;$/;"	m	class:SURFACE_float_2D
+edges_int	type.h	/^    EDGE_float_3D *edges_int;$/;"	m	class:SURFACE_float_3D
+edges_int	type.h	/^    EDGE_int_2D *edges_int;$/;"	m	class:SURFACE_int_2D
+edges_int	type.h	/^    EDGE_int_3D *edges_int;$/;"	m	class:SURFACE_int_3D
+free_point_float_2D	make_polygon.cpp	/^void free_point_float_2D(POINT_V_float_2D *point_v) {$/;"	f
+init	3D.cpp	/^void init(void)$/;"	f
+init	lifangti.cpp	/^void init(){$/;"	f
+init	make_bitmap.cpp	/^void init(void){$/;"	f
+init	make_line.cpp	/^void init(void){$/;"	f
+init	make_list.cpp	/^void init(void){$/;"	f
+init	make_point.cpp	/^void init(void){$/;"	f
+init	make_polygon.cpp	/^void init(void){$/;"	f
+isLeftEye	3D.cpp	/^static bool isLeftEye = false;$/;"	v	file:
+keyboard	3D.cpp	/^void keyboard(unsigned char key, int x, int y)$/;"	f
+leftMatrix	3D.cpp	/^static GLfloat leftMatrix[16] = {1.0, 0.0, 0.0, 0.0,$/;"	v	file:
+leftPersMatrix	3D.cpp	/^static GLfloat leftPersMatrix[16] = {1.0, 0.0, 0.0, 0.0,$/;"	v	file:
+lifangti	lifangti.cpp	/^void lifangti(){$/;"	f
+line	lifangti.cpp	/^    GLint line[2];$/;"	m	class:LINE	file:
+main	3D.cpp	/^int main (int argc, char** argv)$/;"	f
+main	lifangti.cpp	/^int main(int argc,char **argv){$/;"	f
+main	main.cpp	/^int main(int argc,char ** argv) {$/;"	f
+main	make_point.cpp	/^int main(int argc,char **argv){$/;"	f
+make_line	make_line.cpp	/^void make_line(void){$/;"	f
+make_line_loop	make_line.cpp	/^void make_line_loop(void) {$/;"	f
+make_line_strip	make_line.cpp	/^void make_line_strip(void) {$/;"	f
+make_polygon_float_2D	make_polygon.cpp	/^void make_polygon_float_2D(POLYGON_float_2D polygon) {$/;"	f
+make_quads_float_2D	make_quads.cpp	/^void make_quads_float_2D(POLYGON_float_2D polygon) {$/;"	f
+make_stereoscopics_float	make_stereoscopic.cpp	/^void make_stereoscopics_float(STEREOSCOPIC_float *stereoscopic, POINT_V_float_3D *point_v) {$/;"	f
+make_triangles_float_2D	make_triangles.cpp	/^void make_triangles_float_2D(POLYGON_float_2D polygon) {$/;"	f
+point	type.h	/^    POINT_float_2D *point;$/;"	m	class:POLYGON_float_2D
+point	type.h	/^    POINT_float_2D *point;$/;"	m	class:SURFACE_float_2D
+point	type.h	/^    POINT_float_3D *point;$/;"	m	class:POLYGON_float_3D
+point	type.h	/^    POINT_float_3D *point;$/;"	m	class:SURFACE_float_3D
+point	type.h	/^    POINT_int_2D *point;$/;"	m	class:POLYGON_int_2D
+point	type.h	/^    POINT_int_2D *point;$/;"	m	class:SURFACE_int_2D
+point	type.h	/^    POINT_int_2D *point;$/;"	m	class:SURFACE_int_3D
+point	type.h	/^    POINT_int_3D *point;$/;"	m	class:POLYGON_int_3D
+pointSegment	make_point.cpp	/^void pointSegment(void){$/;"	f
+point_v	type.h	/^    POINT_V_float_2D *point_v;$/;"	m	class:POLYGON_float_2D
+point_v	type.h	/^    POINT_V_float_2D *point_v;$/;"	m	class:SURFACE_float_2D
+point_v	type.h	/^    POINT_V_float_3D *point_v;$/;"	m	class:POLYGON_float_3D
+point_v	type.h	/^    POINT_V_float_3D *point_v;$/;"	m	class:SURFACE_float_3D
+point_v	type.h	/^    POINT_V_int_2D *point_v;$/;"	m	class:SURFACE_int_2D
+point_v	type.h	/^    POINT_V_int_2D *point_v;$/;"	m	class:SURFACE_int_3D
+pos	lifangti.cpp	/^    GLfloat pos[3];$/;"	m	class:POINT	file:
+quad	make_stereoscopic.cpp	/^void quad(POINT_V_float_3D *point_v) {$/;"	f
+reghex	type.h	/^    GLint reghex;$/;"	m	class:LIST
+renderScene	lifangti.cpp	/^void renderScene(void){$/;"	f
+reshape	3D.cpp	/^void reshape(int w, int h)$/;"	f
+rightMatrix	3D.cpp	/^static GLfloat rightMatrix[16] = {1.0, 0.0, 0.0, 0.0,$/;"	v	file:
+rightPersMatrix	3D.cpp	/^static GLfloat rightPersMatrix[16] = {1.0, 0.0, 0.0, 0.0,$/;"	v	file:
+rotate	lifangti.cpp	/^static float rotate = 0;$/;"	v	file:
+spinDisplay	3D.cpp	/^void spinDisplay(void)$/;"	f
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:POLYGON_float_2D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:POLYGON_float_3D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:POLYGON_int_2D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:POLYGON_int_3D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:SURFACE_float_2D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:SURFACE_float_3D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:SURFACE_int_2D
+sum_edges	type.h	/^    GLint sum_edges;$/;"	m	class:SURFACE_int_3D
+sum_mappoint	type.h	/^    GLint sum_mappoint;$/;"	m	class:BITMAP_2D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:POLYGON_float_2D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:POLYGON_float_3D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:POLYGON_int_2D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:POLYGON_int_3D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:SURFACE_float_2D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:SURFACE_float_3D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:SURFACE_int_2D
+sum_points	type.h	/^    GLint sum_points;$/;"	m	class:SURFACE_int_3D
+sum_surfaces	type.h	/^    GLint sum_surfaces;$/;"	m	class:POLYGON_float_2D
+sum_surfaces	type.h	/^    GLint sum_surfaces;$/;"	m	class:POLYGON_float_3D
+sum_surfaces	type.h	/^    GLint sum_surfaces;$/;"	m	class:POLYGON_int_2D
+sum_surfaces	type.h	/^    GLint sum_surfaces;$/;"	m	class:POLYGON_int_3D
+surface	type.h	/^    SURFACE_float_2D *surface;$/;"	m	class:POLYGON_float_2D
+surface	type.h	/^    SURFACE_float_3D *surface;$/;"	m	class:POLYGON_float_3D
+surface	type.h	/^    SURFACE_int_2D *surface;$/;"	m	class:POLYGON_int_2D
+surface	type.h	/^    SURFACE_int_3D *surface;$/;"	m	class:POLYGON_int_3D
+test_make_bitmap	make_bitmap.cpp	/^int test_make_bitmap(int argc, char ** argv) {$/;"	f
+test_make_line	make_line.cpp	/^int test_make_line(int argc,char ** argv){$/;"	f
+test_make_list	make_list.cpp	/^int test_make_list(int argc,char ** argv){$/;"	f
+test_make_polygon	make_polygon.cpp	/^int test_make_polygon(int argc, char ** argv) {$/;"	f
+test_make_quads	make_quads.cpp	/^int test_make_quads(int argc, char ** argv) {$/;"	f
+test_make_stereoscopics	make_stereoscopic.cpp	/^int test_make_stereoscopics(int argc, char ** argv) {$/;"	f
+test_make_triangles	make_triangles.cpp	/^int test_make_triangles(int argc, char ** argv) {$/;"	f
+times	lifangti.cpp	/^static int times = 0;$/;"	v	file:
+vertex	type.h	/^    GLfloat vertex[2];$/;"	m	class:POINT_V_float_2D
+vertex	type.h	/^    GLfloat vertex[3];$/;"	m	class:POINT_V_float_3D
+vertex	type.h	/^    GLint vertex[2];$/;"	m	class:POINT_V_int_2D
+vertex	type.h	/^    GLint vertex[3];$/;"	m	class:POINT_V_int_3D
+vertex	type.h	/^    POINT_float_2D vertex[2];$/;"	m	class:EDGE_float_2D
+vertex	type.h	/^    POINT_float_3D vertex[2];$/;"	m	class:EDGE_float_3D
+vertex	type.h	/^    POINT_int_2D vertex[2];$/;"	m	class:EDGE_int_2D
+vertex	type.h	/^    POINT_int_3D vertex[2];$/;"	m	class:EDGE_int_3D
+x	make_point.cpp	/^    GLfloat x,y;$/;"	m	class:POINT	file:
+x	type.h	/^	GLfloat x, y, z;$/;"	m	class:Vector_float_3D
+x	type.h	/^	GLfloat x, y;$/;"	m	class:Vector_float_2D
+x	type.h	/^	GLint x, y, z;$/;"	m	class:Vector_int_3D
+x	type.h	/^	GLint x, y;$/;"	m	class:Vector_int_2D
+x	type.h	/^    GLfloat x,y,z;$/;"	m	class:POINT_float_3D
+x	type.h	/^    GLfloat x,y;$/;"	m	class:POINT_float_2D
+x	type.h	/^    GLint x,y,z;$/;"	m	class:POINT_int_3D
+x	type.h	/^    GLint x,y;$/;"	m	class:POINT_int_2D
+y	make_point.cpp	/^    GLfloat x,y;$/;"	m	class:POINT	file:
+y	type.h	/^	GLfloat x, y, z;$/;"	m	class:Vector_float_3D
+y	type.h	/^	GLfloat x, y;$/;"	m	class:Vector_float_2D
+y	type.h	/^	GLint x, y, z;$/;"	m	class:Vector_int_3D
+y	type.h	/^	GLint x, y;$/;"	m	class:Vector_int_2D
+y	type.h	/^    GLfloat x,y,z;$/;"	m	class:POINT_float_3D
+y	type.h	/^    GLfloat x,y;$/;"	m	class:POINT_float_2D
+y	type.h	/^    GLint x,y,z;$/;"	m	class:POINT_int_3D
+y	type.h	/^    GLint x,y;$/;"	m	class:POINT_int_2D
+z	type.h	/^	GLfloat x, y, z;$/;"	m	class:Vector_float_3D
+z	type.h	/^	GLint x, y, z;$/;"	m	class:Vector_int_3D
+z	type.h	/^    GLfloat x,y,z;$/;"	m	class:POINT_float_3D
+z	type.h	/^    GLint x,y,z;$/;"	m	class:POINT_int_3D
