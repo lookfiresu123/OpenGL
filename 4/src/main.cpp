@@ -17,8 +17,9 @@
 #include "make_stereoscopic.h"
 #include "make_bitmap.h"
 #include "make_list.h"
-#endif
 #include "example_4_30.h"
+#endif
+#include "data_plot.h"
 
 
 
@@ -31,7 +32,8 @@ int main(int argc,char ** argv) {
 	test_make_stereoscopics(argc,argv);
 	test_make_bitmap(argc,argv);
 	test_make_list(argc,argv);
-#endif
 	test_example_4_30(argc,argv);
+#endif
+	test_data_plot(argc,argv);
 	return 0;
 }

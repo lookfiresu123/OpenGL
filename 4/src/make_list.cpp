@@ -3,7 +3,8 @@
  *
  *       Filename:  make_list.cpp
  *
- *    Description:	make a primitive of list
+ *    Description:	make a primitive of list, especially a polygon, but polygon_area / window_area
+ *                  will never be changed.
  *
  *        Version:  1.0
  *        Created:  2015年08月12日 17时12分00秒

@@ -3,7 +3,9 @@
  *
  *       Filename:  example_4_30.cpp
  *
- *    Description:  the example 4.30 in page 66
+ *    Description:  the example 4.30 in page 66, the polygon will be changed to adapt to
+ *                  the display-window size which we have changed, so that polygon_area / window_area
+ *                  will be changed.
  *
  *        Version:  1.0
  *        Created:  2015年08月12日 20时13分38秒
