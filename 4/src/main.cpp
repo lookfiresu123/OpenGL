@@ -18,8 +18,9 @@
 #include "make_bitmap.h"
 #include "make_list.h"
 #include "example_4_30.h"
-#endif
 #include "data_plot.h"
+#endif
+#include "pie_chart.h"
 
 
 
@@ -33,7 +34,8 @@ int main(int argc,char ** argv) {
 	test_make_bitmap(argc,argv);
 	test_make_list(argc,argv);
 	test_example_4_30(argc,argv);
-#endif
 	test_data_plot(argc,argv);
+#endif
+	test_piechart(argc,argv);
 	return 0;
 }

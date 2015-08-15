@@ -7,17 +7,18 @@ objects_make_bitmap = main.o make_bitmap.o
 objects_make_list = main.o make_list.o
 objects_example_4_30 = main.o example_4_30.o
 objects_data_plot = main.o data_plot.o
+objects_pie_chart = main.o pie_chart.o
 
 vpath %.c src
 vpath %.h src
 #VPATH = source:header
 
 # 指令后面要有tab键，clean用于在命令行中输入make clean，.o文件自动推到同名的.c文件及cc命令
-main : $(objects_data_plot)
-	g++ -g -Wall $(objects_data_plot) -o main -lGL -lglut -lGLU
+main : $(objects_pie_chart)
+	g++ -g -Wall $(objects_pie_chart) -o main -lGL -lglut -lGLU
 
 # make for main.cpp
-main.o : data_plot.h
+main.o : pie_chart.h
 	g++ -c -g -Wall src/main.cpp -o main.o -lGL -lglut -lGLU
 
 # make for make_line.cpp
@@ -57,9 +58,13 @@ main.o : data_plot.h
 # 	g++ -c -g -Wall src/example_4_30.cpp -o example_4_30.o -lGL -lglut -lGLU
 
 # make for data_plot.cpp
-data_plot.o :
-	g++ -c -g -Wall src/data_plot.cpp -o data_plot.o -lGL -lglut -lGLU
+# data_plot.o :
+# 	g++ -c -g -Wall src/data_plot.cpp -o data_plot.o -lGL -lglut -lGLU
+
+# make for pie_chart.cpp
+pie_chart.o :
+	g++ -c -g -Wall src/pie_chart.cpp -o pie_chart.o -lGL -lglut -lGLU
 	
 .PHONY : clean
 clean :
-	rm  main $(objects_data_plot)
+	rm  main $(objects_pie_chart)
